@@ -1,19 +1,31 @@
 <html>
 <head>
+  <style> 
+         .outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: /*whatever width you want*/;
+}
+</style>
 </head>
 <body background="mqdefault.jpg" style="font-family:Comic Sans MS">
-<div class="outer" display: table; position: absolute; height: 100%; width: 100%>
-<div class="middle" display: table-cell; vertical-align: middle>
-<div class="inner" margin-left: auto; margin-right: auto;>
 
 <h1>The Content</h1>
 
 <p>Once upon a midnight dreary...</p>
   
    <a href="index.html" target="_blank"><img src="ian.jpg" style="width:32px;height:32px;"></a>
-
-</div>
-</div>
-</div>
 </body>
 </html>
